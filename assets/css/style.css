@@ -129,7 +129,7 @@ h3, h2 {
   width: 100%;
   max-width: 960px;
   padding: 30px;
-  margin: 0 0 40px;
+  margin: 50px 0 40px;
   background: #ffffff;
   border: 1px solid #dddddd;
 }
@@ -212,6 +212,83 @@ input[type=submit] {
   font-size: 18px;
   color: #ffffff;
   cursor: pointer;
-  background: #4aaaa5;
+  background: #473b79;
   border: 0 none;
+}
+
+@media only screen and (max-width: 980px) {
+  .header-div{
+    background-color: blue;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  
+}
+
+@media only screen and (max-width: 640px) {
+
+  #masthead {
+    margin: 0px 0px 50px 0px;
+  }
+
+  #logo {
+    width: 100%;
+    margin:0px;
+    padding:0px;
+
+  }
+
+  nav {
+    position: static;
+    width:100%;
+    
+  }
+
+  #nav-about{
+    text-align: center;
+    float:left;
+    width: 33%;
+    padding: 10px;
+    margin: 0px 0px 10px 0px;
+  }
+
+  #nav-portfolio{
+    text-align: center;
+    float:left;
+    width: 33%;
+    padding: 10px;
+    margin: 0px 0px 10px 0px;
+  }
+
+  #nav-contact{
+    text-align: center;
+    float:left;
+    width: 33%;
+    padding: 10px;
+    margin: 0px 0px 10px 0px;
+  }
+
+  .auth-image {
+    width: 100%;
+    margin: 0 0 10px 0;
+  }
+
+  h1 {
+    font-weight: 50;
+    text-align: center;
+    font-size: 10%;
+    line-height: 10%px;
+  }
+
+  img {
+    float: none;
+    width: 100%
+  }
+
+  .work img {
+    align-content: center;
+    width: 100%
+  }
+
 }
