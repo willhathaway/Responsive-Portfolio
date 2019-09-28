@@ -236,7 +236,7 @@ input[type=submit] {
     width: 100%;
     margin:0px;
     padding:0px;
-
+    font-size: 20px;
   }
 
   nav {
@@ -275,20 +275,36 @@ input[type=submit] {
   }
 
   h1 {
+    font-size: 20px;
     font-weight: 50;
     text-align: center;
-    font-size: 10%;
-    line-height: 10%px;
+
   }
 
-  img {
-    float: none;
-    width: 100%
-  }
+  
 
   .work img {
-    align-content: center;
-    width: 100%
+    float: left;
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 25px;
+    
+  }
+
+  ul {
+    list-style-type: none;
+    float: left;
+  }
+
+  label {
+    font-weight: 100;
+    font-size: 12px;
+  }
+
+  p {
+    font-weight: 100;
+    font-size: 12px;
   }
 
 }
