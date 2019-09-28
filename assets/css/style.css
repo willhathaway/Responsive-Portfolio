@@ -1,3 +1,5 @@
+/* basic CSS code taken from the solution file to homework 1 */
+
 body {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 18px;
@@ -216,6 +218,8 @@ input[type=submit] {
   border: 0 none;
 }
 
+/* media queries for responsive design */
+
 @media only screen and (max-width: 980px) {
   .header-div{
     background-color: blue;
@@ -228,16 +232,21 @@ input[type=submit] {
 
 @media only screen and (max-width: 640px) {
 
+
+  /* adjusts the margin on the masthead */
   #masthead {
     margin: 0px 0px 50px 0px;
   }
 
+  /* changes the width of the logo and decreases the size of the font */
   #logo {
     width: 100%;
     margin:0px;
     padding:0px;
     font-size: 20px;
   }
+
+/* the following 4 CSS declarations resize the navbar buttons to be centered under the logo */
 
   nav {
     position: static;
@@ -281,8 +290,7 @@ input[type=submit] {
 
   }
 
-  
-
+  /* makes the portfolio images centered, adjusting to screen width */
   .work img {
     float: left;
     width: 100%;
@@ -292,6 +300,7 @@ input[type=submit] {
     
   }
 
+/* taken from https://www.w3schools.com/html/tryit.asp?filename=tryhtml_lists_unordered_none */
   ul {
     list-style-type: none;
     float: left;
