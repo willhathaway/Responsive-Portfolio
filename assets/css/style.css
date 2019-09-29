@@ -283,11 +283,22 @@ input[type=submit] {
     margin: 0 0 10px 0;
   }
 
-  h1 {
+  .h1-about-me {
     font-size: 20px;
     font-weight: 50;
     text-align: center;
+  }
 
+  .h1-portfolio {
+    font-size: 20px;
+    font-weight: 50;
+    text-align: center;
+  }
+
+  .h1-contact {
+    font-size: 20px;
+    font-weight: 50;
+    text-align: center;
   }
 
   /* makes the portfolio images centered, adjusting to screen width */
